@@ -1,4 +1,4 @@
-mBARTprobit=function(
+probit_monbart=function(
     x.train,y.train, x.test=matrix(0.0,0,0),
     sigest=NA, sigdf=3, sigquant=.90,
     k=2.0,
