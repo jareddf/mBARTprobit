@@ -1,2 +1,2 @@
-# pmBART
+# mBARTprobit
 Probit version of Monotone BART
