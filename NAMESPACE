@@ -1,4 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 useDynLib(mBARTprobit, .registration=TRUE)
-export("mBARTprobit")
+export("probit_monbart")
 importFrom(Rcpp, evalCpp)
