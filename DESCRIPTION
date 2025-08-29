@@ -1,0 +1,17 @@
+Package: mBARTprobit
+Type: Package
+Title: Monotonic BART with Probit Link for Binary Outcomes
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jared", "Fisher",
+      email = "fisher@stat.byu.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Regresses binary outcomes on covariates of interest using a sum of regression trees. The trees are constrained to be monotonic functions. 
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp
+LinkingTo: Rcpp
